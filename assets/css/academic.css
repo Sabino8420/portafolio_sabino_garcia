@@ -1,6 +1,7 @@
 .academic_container{
     width: 100vw;
     background-color: var(--cor-de-about);
+    padding: 1px;
 }
 .academic{
  padding: 1rem 0;
