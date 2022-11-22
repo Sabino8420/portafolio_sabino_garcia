@@ -1,0 +1,41 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo-box: #FdFdFd;
+    --cor-de-fundo: #F5F5F5;
+   --cor-de-about: #EAF2FD;
+   --cor-de-link: #000;
+   --cor-de-boton: #2A7AE4;
+} 
+.body{
+   
+    width: 100vw;
+    font-family: "Raleway";
+   
+}
+.all{
+ /*  max-width: 1400px;*/
+}
+.conteudo{
+    background-color: var(--cor-de-fundo);
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.titulos{
+    font-size: 1.5rem;
+    font-weight: bold;  
+    margin-bottom: 1rem;
+    
+}

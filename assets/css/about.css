@@ -1,0 +1,36 @@
+.about{
+width: 100vw;    
+background: var(--cor-de-about);
+}
+
+.about__container{
+    margin: 0 0.4rem;  
+    padding: 1.5rem 0;
+}
+
+.about__paragraph{
+  margin:  1rem 0;  
+}
+
+.mi_logo{
+    height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about__container{
+    margin: 2rem;  
+    padding: 1.5rem 0;
+}
+  
+}
+@media screen and (min-width: 1024px) {
+  .about__container{
+    margin: 2rem  10%;  
+    padding: 1.5rem 30% 1.5rem 0;
+  
+}
+.about__title{
+  font-size: 2rem;
+}
+  
+}

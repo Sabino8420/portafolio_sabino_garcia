@@ -1,0 +1,86 @@
+.experience{
+    padding: 1rem 0;
+    margin: 0 0.4rem;  
+}
+.experience__section__title{
+    text-align: center;
+}
+.experiencie__box{
+    padding: 1rem 2rem;
+}
+.experience__img{
+    height: 124px;
+    width: 100%;
+    margin: 0 auto;
+}
+.experience__title{
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.experiencia__botao--repo{
+    height: 40px;
+    border: solid var(--cor-de-boton);
+ }
+ .experiencia__botao--demo{
+    height: 40px;
+    background-color: var(--cor-de-boton);
+ }
+ .experience__description{
+    margin: 1rem 0 2.5rem 0;
+ }
+
+ @media screen and (min-width: 768px) {
+
+.experience__img{
+    width: 704px;
+height: 320px;
+}
+.experiencia__botao--repo{
+   margin-right: 1rem;
+ }
+}
+@media screen and (min-width: 1024px) {
+    .experience{
+        padding: 1rem 0;
+        margin: 0 10%;  
+    }
+    .experience__img{
+    width: 704px;
+    height: 320px;
+    }
+    .experiencia__botao--repo{
+       margin-right: 1rem;
+     }
+     .experience__section__title{
+        font-size: 2rem;
+    } 
+
+    .experiencie__box{
+        display: flex; 
+        margin: 2rem 0;
+        
+    }
+    .experiencie__box:nth-child(3){
+        flex-direction: row-reverse; 
+    }
+    .experiencie__box:nth-child(5){
+        flex-direction: row-reverse; 
+    }
+    .experience__img{
+        width: 650px;
+        height: 406px;
+    }
+    .experience__title{
+      font-size: 1rem;
+      
+    }
+    .experience__info{
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+ }
