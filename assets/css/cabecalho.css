@@ -1,5 +1,5 @@
 .app{
-    background-color: green;
+    background-color: var(--cor-de-fundo);
 }
 .menu{
     margin: 0 0.4rem;
