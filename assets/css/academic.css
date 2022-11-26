@@ -2,7 +2,7 @@
     width: 100vw;
     background-color: var(--cor-de-about);
     padding: 1px;
-    height: 800px;
+    height: auto;
 }
 .academic{
  padding: 1rem 0;

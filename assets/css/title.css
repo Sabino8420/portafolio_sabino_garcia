@@ -19,7 +19,9 @@
     font-weight: bold;
     margin: 1rem 0;
     font-size: 0.9rem;
-    width: 100vw;
+    width: 100%;
+    align-items: flex-start;
+    
 }
 
 @media screen and (min-width: 768px){

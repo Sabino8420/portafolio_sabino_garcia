@@ -14,14 +14,11 @@ coloque nas sessões indicadas*/
    --cor-de-boton: #2A7AE4;
 } 
 .body{
-   
     width: 100vw;
-    font-family: "Raleway";
+    font-family: Raleway, sans-serif;
    
 }
-.all{
- /*  max-width: 1400px;*/
-}
+
 .conteudo{
     background-color: var(--cor-de-fundo);
 }
