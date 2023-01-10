@@ -1,4 +1,4 @@
-/*.formcontato{
+.formcontato{
    background-color: var(--cor-de-about);  
 }
 .formcontato__contacto{
@@ -62,4 +62,4 @@ padding: 0 1px;
         flex-direction: column;
         width: 45%;
        }
-}*/
+}
