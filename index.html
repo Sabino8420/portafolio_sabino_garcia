@@ -278,12 +278,12 @@
                     <h2 class="formcontato__title titulos">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário e entrarei em contato o mais rápido possível. </h3>
-                    <form class="formcontato__form">
-                        <input data-nombre class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input data-email class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input data-asunto class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                    <form class="formcontato__form" action="https://formsubmit.co/ost.sabino.garcia.palechor@gmail.com" method="POST">
+                        <input data-nombre class="formcontato__input" type="text" id="nome" placeholder="Nome" name="nombre">
+                        <input data-email class="formcontato__input" type="email" id="email" placeholder="Email" name="email">
+                        <input data-asunto class="formcontato__input" type="text" id="assunto" placeholder="Assunto" name="asunto">
                         <textarea data-mensaje class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button data-boton class="formcontato__botao">Enviar mensagem</button>
+                        <button data-boton class="formcontato__botao" type="submit">Enviar mensagem</button>
                     </form>
                 </div>
             </div>
